@@ -80,8 +80,9 @@ Incluye:
 
 ## **Deploy**
 
-URL del proyecto:  
-**[https://TU-PROYECTO.vercel.app](https://tu-proyecto.vercel.app/)**
+<!-- URL del proyecto:  
+**[https://TU-PROYECTO.vercel.app](https://tu-proyecto.vercel.app/)** -->
+*Aún no, lo siento.*
 
 ---
 
