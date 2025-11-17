@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="syle.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <main>
+        <h1>Contador de repeticiones</h1>
+        <section id="panel">
+            <section id="counterSection">
+                <div id="timerController">
+                    <button id="startButton"><i class="ri-play-fill"></i></button>
+                    <button id="pauseButton"><i class="ri-pause-fill"></i></button>
+                    <button id="stopButton"><i class="ri-stop-fill"></i></button>
+                </div>
+                <div id="total-grid">
+                    <div class="counter-cell">
+                        <h3>Series:</h3>
+                        <input type="number" name="" id="seriesNumber" class="inputNumber" placeholder="0">
+                    </div>
+                    <div class="counter-cell">
+                        <h3>Reps:</h3>
+                        <input type="number" name="" id="repsNumber" class="inputNumber" placeholder="0">
+                    </div>
+                    <div class="counter-cell">
+                        <h3>Series Rest :</h3>
+                        <input type="number" name="" id="seriesRestNumber" class="inputNumber" placeholder="0">
+                    </div>
+                </div>
+                <div id="total-box">
+                    <div class="counter-box">
+                        <h3> Total Series:</h3>
+                        <h3 id="seriesCounter">0</h3>
+                    </div>
+                    <div class="counter-box">
+                        <h3> Total reps:</h3>
+                        <h3 id="reps-Counter">0</h3>
+                    </div>
+                </div>
+                <h3 id="respRest"></h3>
+                <section id="timer">
+                    <h5 id="error"> Errors</h5>
+                    <div class="box">
+                        <input type="number" name="" id="firstRest" class="inputNumber" placeholder="-">
+                        <h3 class="title" id="first-restTitle">Descanso</h3>
+                        <p class="counter" id="first-rest-Counter">0 s</p>
+                    </div>
+                    <div class="box">
+                        <input type="number" name="" id="timeDown" class="inputNumber" placeholder="↓">
+                        <h3 class="title" id="downTitle">Bajada</h3>
+                        <p class="counter" id="down-Counter">0 s</p>
+                    </div>
+                    <div class="box">
+                        <input type="number" name="" id="secondRest" class="inputNumber" placeholder="-">
+                        <h3 class="title" id="second-restTitle">Descanso</h3>
+                        <p class="counter" id="second-rest-Counter">0 s</p>
+                    </div>
+                    <div class="box">
+                        <input type="number" name="" id="timeUp" class="inputNumber" placeholder="↑">
+                        <h3 class="title" id="upTitle">Subida</h3>
+                        <p class="counter" id="up-Counter">0 s</p>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
